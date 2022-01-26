@@ -1,3 +1,4 @@
+//https://open.kattis.com/problems/aaah
 import java.util.*; // import Scanner class
 
 public class Aaah {
