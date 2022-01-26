@@ -10,14 +10,7 @@ public class Aaah {
 		String jon = scnr.nextLine();
 		String doctor = scnr.nextLine();
 		
-		/*if (jon.length() < 0 && jon.length() > 100) {
-			return;
-		}
-		if (doctor.length() < 0 && doctor.length() > 100) {
-			return;
-		}
-		else if (jon.contains("h") && doctor.contains("h")) {
-		*/	
+
 		if (jon.length() >= doctor.length())
 		{
 			System.out.println("go");
@@ -25,11 +18,7 @@ public class Aaah {
 		else {
 			System.out.println("no");
 		}
-		/*}
-		else if (!(jon.contains("h")) && !(doctor.contains("h"))){
-			return;
-		}
-		*/
+
 		scnr.close();
 	}
 	// end main
