@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.lang.Math;
+
+public class triangleArea {
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		
+		//two ints; base, height
+		int base = scnr.nextInt();
+		int height = scnr.nextInt();
+				
+		//output double hypotenuse
+		System.out.println(base * height / 2.0);
+	}
+}
